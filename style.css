@@ -1,0 +1,228 @@
+* {
+    font-family: "FZShuTi";
+}
+
+body {
+    background-color: #f1f5ff;
+    margin: 0px 150px 0px 150px;
+    border-style: dotted;
+    border-color: #ABC4FF;
+}
+
+header {
+    background-color: #ABC4FF;
+    color: white;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: "STLiti";
+    text-align: center;
+    margin: 25px;
+    border-radius: 10px;
+    border: white solid 5px;
+    padding: 40px;
+}
+
+nav {
+    background-color: #C1D3FE;
+    text-align: center;
+    font-size: 30px;
+    margin: 25px;
+    border-radius: 10px;
+    border: white solid 5px;
+}
+
+nav a {
+    padding: 10px 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: aliceblue;
+    color: gray;
+}
+
+article {
+    background-color: #D7E3FC;
+    padding: 80px;
+    border-radius: 10px;
+    border: white solid 5px;
+    margin: 25px;
+}
+
+section h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+    font-size: 25px;
+    float: left;
+}
+
+footer {
+    background-color: #C1D3FE;
+    color: white;
+    font-size: 30px;
+    font-family: "STLiti";
+    text-align: center;
+    margin: 25px;
+    border: white solid 5px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ico {
+    float: right;
+    height: 60px;
+    width: 60px;
+}
+
+.ico:hover {
+    width: 75px;
+    height: 75px;
+}
+
+.kd {
+    color: white;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: "STLiti";
+    text-align: center;
+    background-color: #c0d3fe;
+    border-radius: 40px;
+    border: white dotted;
+    padding: 20px;
+}
+
+.kd:hover {
+    background-color: aliceblue;
+    color: gray;
+}
+
+.wor {
+    font-size: 28px;
+}
+
+.back {
+    background-color: #E2EAFC;
+    border-radius: 30px;
+    border: #C1D3FE solid;
+    padding: 20px;
+}
+
+.bac {
+    background-color: #E2EAFC;
+    border-radius: 30px;
+    border: #C1D3FE solid;
+    padding: 20px;
+}
+
+.bac:hover {
+    background-color: aliceblue;
+    color: gray;
+}
+
+.phol {
+    border-radius: 70px;
+    height: 300px;
+    width: 300px;
+    float: left;
+    padding: 40px;
+}
+
+.phor {
+    border-radius: 70px;
+    height: 300px;
+    width: 300px;
+    float: right;
+    padding: 30px;
+}
+
+.cle {
+    clear: both;
+}
+
+.ski {
+    border-radius: 30px;
+    border: #c5d4f7 solid 10px;
+}
+
+.ski1 {
+    margin: 3px;
+    width: 8em;
+    border-right-style: solid;
+    border-right-color: #c5d4f7;
+    animation: bar1 5s ease;
+    animation-iteration-count: 1000;
+    animation-delay: 1s;
+}
+
+.ski2 {
+    margin: 3px;
+    width: 8em;
+    border-right-style: solid;
+    border-right-color: #c5d4f7;
+    animation: bar2 5s ease;
+    animation-iteration-count: 1000;
+    animation-delay: 1s;
+}
+
+.ski3 {
+    margin: 3px;
+    width: 8em;
+    border-right-style: solid;
+    border-right-color: #c5d4f7;
+    animation: bar3 5s ease;
+    animation-iteration-count: 1000;
+    animation-delay: 1s;
+}
+
+.ski4 {
+    margin: 3px;
+    width: 8em;
+    border-right-style: solid;
+    border-right-color: #c5d4f7;
+    animation: bar4 5s ease;
+    animation-iteration-count: 1000;
+    animation-delay: 1s;
+}
+
+@keyframes bar1 {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        border-right-width: 450px;
+    }
+}
+
+@keyframes bar2 {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        border-right-width: 400px;
+    }
+}
+
+@keyframes bar3 {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        border-right-width: 400px;
+    }
+}
+
+@keyframes bar4 {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        border-right-width: 350px;
+    }
+}
